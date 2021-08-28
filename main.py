@@ -55,7 +55,7 @@ class Main_game:
         self.button1.draw()
         if self.button1.update():
             self.difficulty = 'easy'
-            self.start_game(rows = 9, cols = 9, bombs = 1, block_size = 32)
+            self.start_game(rows = 9, cols = 9, bombs = 10, block_size = 32)
         self.button2.draw()
         if self.button2.update():
             self.difficulty = 'medium'
